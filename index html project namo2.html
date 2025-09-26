@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UNIFIED MERRY MINDS ASSOCIATION</title>
+<meta name="description" content="Unified Merry Minds Association - Growth, welfarism, and socialization. Learn about our mission, members, and constitution.">
+<meta name="keywords" content="Unified Merry Minds Association, UMMA, Nigeria, social development, community, constitution">
+<meta name="author" content="Unified Merry Minds Association">
+
+<style>
+/* General */
+html { scroll-behavior: smooth; }
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f9f9f9; }
+header { background: #2c3e50; color: white; padding: 20px; text-align: center; }
+section { padding: 40px; max-width: 1200px; margin: auto; }
+.card { background: #e3f2fd; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: all 0.3s; }
+.card:hover { transform: translateY(-5px); box-shadow: 0 8px 16px rgba(0,0,0,0.2); }
+footer { background: #2c3e50; color: #e3f2fd; text-align: center; padding: 20px; margin-top: 20px; }
+
+/* Top nav */
+nav#topNav { background: #34495e; display: flex; justify-content: center; flex-wrap: wrap; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 6px rgba(0,0,0,0.2); }
+nav#topNav a { color: white; text-decoration: none; padding: 14px 20px; display: block; transition: background 0.3s; }
+nav#topNav a.active, nav#topNav a:hover { background: #1abc9c; font-weight: bold; }
+
+/* Hero */
+.hero { position: relative; background: url('https://picsum.photos/1200/400') no-repeat center center/cover; color: white; text-align: center; padding: 100px 20px; }
+.hero::before { content: ""; position: absolute; top:0; left:0; right:0; bottom:0; background: rgba(0,0,0,0.4); }
+.hero h1, .hero p { position: relative; z-index:1; }
+
+/* Constitution */
+#constitution .card { display: flex; gap: 20px; }
+#constitution nav { display: block; min-width: 220px; background: #34495e; padding: 15px; border-radius: 8px; height: fit-content; position: sticky; top: 20px; color: white; }
+#constitution nav h3 { margin-top:0; }
+#constitution nav ul { list-style: none; padding:0; margin:0; }
+#constitution nav ul li { margin:8px 0; }
+#constitution nav ul li a { color:white; text-decoration:none; transition: color 0.3s, font-weight 0.3s; }
+#constitution nav ul li a.active { color:#1abc9c; font-weight:bold; text-decoration: underline; }
+#constitution .content { flex:1; }
+#constitution h3.toggle-header { cursor:pointer; display:flex; justify-content:space-between; align-items:center; transition: color 0.3s; margin-top:25px; color:#2c3e50; }
+#constitution .toggle-content { max-height:0; overflow:hidden; padding-left:15px; border-left:2px solid #1abc9c; margin-bottom:15px; opacity:0; transition: max-height 0.5s ease, opacity 0.5s ease; }
+.toggle-header.active { color:#1abc9c; }
+.toggle-header.active + .toggle-content { max-height:500px; opacity:1; }
+.arrow { transition: transform 0.3s; }
+.toggle-header.active .arrow { transform: rotate(180deg); }
+#searchBox { width:100%; padding:10px; margin-bottom:20px; border-radius:5px; border:1px solid #ccc; }
+
+/* Download buttons */
+.download-buttons { margin-top:20px; }
+.download-buttons button { background:#1abc9c; color:white; border:none; padding:10px 20px; margin:5px; border-radius:5px; cursor:pointer; transition: background 0.3s; }
+.download-buttons button:hover { background:#16a085; }
+
+/* Responsive */
+.toggle-btn { display:none; background:#1abc9c; color:white; border:none; padding:10px 15px; border-radius:5px; cursor:pointer; margin-bottom:10px; }
+@media(max-width:768px){
+#constitution .card { flex-direction: column; }
+#constitution nav { display:none; position:relative; top:0; }
+#constitution nav.active { display:block; }
+.toggle-btn { display:block; }
+}
+
+/* Back to top */
+#backToTop { position:fixed; bottom:20px; right:20px; background:#1abc9c; color:white; border:none; padding:10px 15px; border-radius:50%; cursor:pointer; display:none; font-size:18px; box-shadow:0 2px 6px rgba(0,0,0,0.2); transition: opacity 0.3s; }
+</style>
+</head>
+<body>
+
+<header>
+<h1>UNIFIED MERRY MINDS ASSOCIATION</h1>
+<p>“Growth, welfarism and socialization”</p>
+</header>
+
+<nav id="topNav" aria-label="Main Navigation">
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#members">Members</a>
+<a href="#constitution">Constitution</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="hero">
+<h1>WELCOME to UNIFIED MERRY MINDS ASSOCIATION</h1>
+<p>Growth, welfarism and socialization.</p>
+</section>
+
+<section id="about">
+<div class="card">
+<h2>About Us</h2>
+<p>The Unified Merry Minds Association is a fully registered association with CAC RC NO:7111619, promoting unity, cooperation, and collective development among members.</p>
+</div>
+</section>
+
+<section id="members">
+<div class="card">
+<h2>Our EXCOs and Members</h2>
+<ul>
+<li>Mr. Shuaibu Idris – Chairman</li>
+<li>Mr. Henry Buchi – Secretary</li>
+<li>Mr. James Okoraofor – Financial Secretary</li>
+<li>Mr. Danladi – Treasurer</li>
+<li>Mr. Justine Nanven - Provost</li>
+<li>MR OLAITAN I.  - 14th February</li>
+<li>MR NANMWA B: - 14th February</li>
+<li>MR ANTHONY C. - 24th February</li> 
+<li>MR AMOS Y.  - 18th March</li>
+<li>Engr JUSTINE N. - 6th June</li>
+<li>Engr IDRIS K. - 26th July</li>
+<li>MR DANLADI E. - 31st August</li>
+<li>Pharm NOAH I. - 19th September</li> 
+<li>MR EKENE - 25th September</li>
+<li>MR GBENGA J. - 26th September</li>
+<li>MR CHIGOZIE  - 19th October</li>
+<li>MR JAMES O. - 27th October</li>
+<li>MR BUCHI H. - 28th November</li>
+<li>Engr NUREDEEN B. - 24th December</li>
+</ul>
+</div>
+</section>
+
+<section id="constitution">
+<div class="card">
+<button class="toggle-btn" onclick="toggleNav()">☰ Contents</button>
+<nav id="sideNav" aria-label="Constitution Contents">
+<h3>Contents</h3>
+<ul>
+<li><a href="#preamble">📜 Preamble</a></li>
+<li><a href="#citation">📝 Citation</a></li>
+<li><a href="#aim">🎯 Aim</a></li>
+<li><a href="#motto">💡 Motto</a></li>
+<li><a href="#mission">🚀 Mission & Vision</a></li>
+<li><a href="#objectives">🎯 Objectives</a></li>
+<li><a href="#greeting">🤝 Greeting</a></li>
+<li><a href="#supremacy">⚖️ Supremacy</a></li>
+<li><a href="#membership">👥 Membership</a></li>
+<li><a href="#officers">🧑‍💼 Officers</a></li>
+<li><a href="#vacancy">🔄 Vacancy/Removal</a></li>
+<li><a href="#committees">📋 Committees</a></li>
+<li><a href="#finance">💰 Finance</a></li>
+<li><a href="#meetings">📅 Meetings</a></li>
+<li><a href="#quorum">📊 Quorum</a></li>
+<li><a href="#absenteeism">⛔ Absenteeism</a></li>
+<li><a href="#standing">📝 Standing Order</a></li>
+<li><a href="#misc">🗂 Miscellaneous</a></li>
+<li><a href="#amendment">✏️ Amendment</a></li>
+</ul>
+</nav>
+
+<div class="content" id="constitutionContent">
+<input type="text" id="searchBox" placeholder="Search the Constitution...">
+<div class="download-buttons">
+<button onclick="alert('Download PDF coming soon')">Download PDF</button>
+<button onclick="alert('Download Word coming soon')">Download Word</button>
+</div>
+
+<!-- Constitution Sections -->
+<h3 class="toggle-header" id="preamble">📜 1. Preamble <span class="arrow">▼</span></h3>
+<div class="toggle-content"><p>We, the members of UMMA, having agreed to form ourselves into one body, establish this constitution...</p></div>
+
+<h3 class="toggle-header" id="citation">📝 2. Citation <span class="arrow">▼</span></h3>
+<div class="toggle-content"><p>This body shall be known as THE UNIFIED MERRY MINDS ASSOCIATION (UMMA).</p></div>
+
+<h3 class="toggle-header" id="aim">🎯 3. Aim <span class="arrow">▼</span></h3>
+<div class="toggle-content"><p>The aim of the Association is to promote unity, welfare, and mutual development among members.</p></div>
+
+<h3 class="toggle-header" id="motto">💡 4. Motto <span class="arrow">▼</span></h3>
+<div class="toggle-content"><p>“Growth, Welfarism and Socialization.”</p></div>
+
+<h3 class="toggle-header" id="mission">🚀 5. Mission & Vision <span class="arrow">▼</span></h3>
+<div class="toggle-content"><p>Mission: Foster cooperation, social integration, and sustainable growth.<br>Vision: To be a model association of unity and mutual support.</p></div>
+
+<h3 class="toggle-header" id="objectives">🎯 6. Objectives <span class="arrow">▼</span></h3>
+<div class="toggle-content">
+<ul>
+<li>Encourage savings and financial discipline</li>
+<li>Support members in times of need</li>
+<li>Provide skill development opportunities</li>
+<li>Promote harmony and peaceful coexistence</li>
+</ul>
+</div>
+
+<!-- Add remaining sections similarly -->
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="card">
+<h2>Contact Us</h2>
+<p>Email: <a href="mailto:info@umma.org">info@umma.org</a> | Phone: +234-XXX-XXXX-XXXX</p>
+</div>
+</section>
+
+<footer>
+<p>&copy; 2025 Unified Merry Minds Association. All rights reserved.</p>
+<p>
+<a href="mailto:info@umma.org" style="color:#1abc9c; text-decoration:none;">Email Us</a> | 
+<a href="https://www.umma.org" target="_blank" style="color:#1abc9c; text-decoration:none;">Visit Our Website</a>
+</p>
+</footer>
+
+<script>
+// Accordion with smooth animation
+document.querySelectorAll('.toggle-header').forEach(header => {
+  header.addEventListener('click', () => {
+    header.classList.toggle('active');
+    const content = header.nextElementSibling;
+    if(header.classList.contains('active')){
+      content.style.maxHeight = content.scrollHeight + "px";
+      content.style.opacity = 1;
+    } else {
+      content.style.maxHeight = 0;
+      content.style.opacity = 0;
+    }
+  });
+});
+
+// Search functionality with keyword highlight
+const searchBox = document.getElementById('searchBox');
+if(searchBox){
+  searchBox.addEventListener('input', () => {
+    const query = searchBox.value.toLowerCase();
+    document.querySelectorAll('.toggle-header').forEach(header => {
+      const content = header.nextElementSibling;
+      content.innerHTML = content.textContent; // remove previous highlights
+      const text = header.textContent.toLowerCase() + " " + content.textContent.toLowerCase();
+      if(text.includes(query) && query.trim() !== ""){
+        header.style.display = '';
+        header.classList.add('active');
+        content.style.maxHeight = content.scrollHeight + "px";
+        content.style.opacity = 1;
+        const regex = new RegExp(`(${query})`, "gi");
+        content.innerHTML = content.textContent.replace(regex, '<span style="background-color:yellow;">$1</span>');
+      } else if(query.trim() === ""){
+        header.style.display = '';
+        header.classList.remove('active');
+        content.style.maxHeight = 0;
+        content.style.opacity = 0;
+      } else {
+        header.style.display = 'none';
+        content.style.maxHeight = 0;
+        content.style.opacity = 0;
+        header.classList.remove('active');
+      }
+    });
+  });
+}
+
+// Toggle side nav on mobile
+function toggleNav(){
+  document.getElementById('sideNav').classList.toggle('active');
+}
+
+// Scrollspy and back-to-top
+window.addEventListener('scroll', () => {
+  const sections = document.querySelectorAll('section');
+  let scrollPos = window.scrollY + 150;
+  document.querySelectorAll('#topNav a').forEach(link => link.classList.remove('active'));
+  sections.forEach(sec => {
+    if(scrollPos >= sec.offsetTop && scrollPos < sec.offsetTop + sec.offsetHeight){
+      const id = sec.getAttribute('id');
+      const activeLink = document.querySelector(`#topNav a[href="#${id}"]`);
+      if(activeLink) activeLink.classList.add('active');
+    }
+  });
+
+  const backBtn = document.getElementById('backToTop');
+  if(backBtn) backBtn.style.display = scrollPos > 300 ? 'block' : 'none';
+});
+
+// Back-to-Top Button
+const backBtn = document.createElement('button');
+backBtn.id = 'backToTop';
+backBtn.textContent = '↑';
+document.body.appendChild(backBtn);
+backBtn.addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
+
+// Auto-close mobile nav on link click
+document.querySelectorAll('#sideNav a').forEach(link => {
+  link.addEventListener('click', () => {
+    document.getElementById('sideNav').classList.remove('active');
+  });
+});
+</script>
+
+</body>
+</html>
